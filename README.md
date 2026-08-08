@@ -1,16 +1,13 @@
 # Antigravity Desktop 中文汉化插件
 
 <p align="center">
-  <img src="docs/screenshot.png" alt="Antigravity 汉化效果截图" width="85%">
-</p>
-
-<p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/github/license/Sj295/antigravity-chinese-plugin" alt="License"></a>
   <img src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-Windows%20%7C%20macOS%20%7C%20Linux-blue" alt="平台">
   <img src="https://img.shields.io/badge/Antigravity-2.4.3%2B-blue" alt="Antigravity 版本">
-  <img src="https://img.shields.io/badge/%E8%AF%8D%E5%BA%93-460%2B%20%E6%9D%A1-green" alt="词库">
-  <img src="https://img.shields.io/github/stars/Sj295/antigravity-chinese-plugin" alt="Stars">
-  <img src="https://img.shields.io/github/last-commit/Sj295/antigravity-chinese-plugin" alt="最近提交">
+</p>
+
+<p align="center">
+  <img src="docs/screenshot.png" alt="Antigravity 汉化效果截图" width="85%">
 </p>
 
 > 面向 **Antigravity Desktop 2.4.3+** 的深度中文汉化方案，支持 Windows / macOS / Linux，覆盖设置中心、侧边栏、对话交互、模型选择、`/` 命令菜单、托盘与系统对话框等全部可见 UI。
