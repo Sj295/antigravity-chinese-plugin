@@ -1,6 +1,8 @@
 # Antigravity Desktop 中文汉化插件
 
-![logo](docs/logo.svg)
+<p align="center">
+  <img src="docs/screenshot.png" alt="Antigravity 汉化效果截图" width="85%">
+</p>
 
 > 面向 **Antigravity Desktop 2.4.3+** 的深度中文汉化方案，覆盖设置中心、侧边栏、对话交互、模型选择、/ 命令菜单、托盘与系统对话框等全部可见 UI（约 460+ 词条）。
 
