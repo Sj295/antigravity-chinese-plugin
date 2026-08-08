@@ -508,6 +508,7 @@ module.exports = {
 
   patterns: [
     { regex: /^Select model, current: (.*)$/i, replace: "当前模型：$1" },
+    { regex: /^Models within this group: (.*)$/i, replace: "该分组包含的模型：$1" },
     { regex: /^Mark (\d+) conversation[s]? as read$/i, replace: "将 $1 个会话标记为已读" },
     { regex: /^Show (\d+) breakdown[s]?$/i, replace: "显示 $1 项明细" },
     { regex: /^Send feedback as (.*)$/i, replace: "以 $1 的身份发送反馈" },
