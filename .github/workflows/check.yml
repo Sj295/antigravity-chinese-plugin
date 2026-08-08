@@ -1,0 +1,25 @@
+name: Syntax Check
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: 语法检查 (JS)
+        run: |
+          node --check scripts/asar_utils.js
+          node --check scripts/patch.js
+          node --check src/injector.js
+          node --check src/i18n.js
+          node --check src/menu_patch.js
+      - name: 词库一致性检查
+        run: node scripts/check_i18n_sync.js

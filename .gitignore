@@ -1,0 +1,14 @@
+# 运行时临时目录（安装时自动生成并清理）
+.temp_extract/
+app.asar.temp
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+.vscode/
+.idea/
+
+# 测试产物
+*.bin
